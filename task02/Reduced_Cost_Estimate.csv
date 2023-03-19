@@ -1,27 +1,23 @@
-"Estimate summary											",,,,,,,,,,,
-"Upfront cost	Monthly cost	Total 12 months cost	Currency								",,,,,,,,,,,
-"7610	6257.31	82697.72	USD								",,,,,,,,,,,
-"		* Includes upfront cost									",,,,,,,,,,,
-"											",,,,,,,,,,,
-"											",,,,,,,,,,,
-"Detailed Estimate											",,,,,,,,,,,
-"Group hierarchy	Region	Description	Service	Upfront	Monthly	First 12 months total	Currency	Configuration summary			",,,,,,,,,,,
-"My Estimate	US East (N. Virginia)		Amazon EC2 	0	1978.634	23743.61	USD	""Tenancy (Dedicated Instances)", Operating system (Linux), Advance EC2 instance (t3.xlarge), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 6), Pricing strategy (Standard Reserved Instances 1 Year  None upfront), Enable monitoring (disabled), Storage amount (30 GB)," Snapshot Frequency (No snapshot storage)""			"
-"My Estimate	US East (N. Virginia)		Amazon EC2 	0	1664.998	19979.98	USD	""Tenancy (Dedicated Instances)", Operating system (Linux), Advance EC2 instance (m4.xlarge), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 2), Pricing strategy (Standard Reserved Instances 1 Year  None upfront), Enable monitoring (disabled), Storage amount (30 GB)," Snapshot Frequency (No snapshot storage)""			"
-"My Estimate	US East (N. Virginia)		Amazon RDS for PostgreSQL	7610	680.078	15770.94	USD	""Storage volume (General Purpose SSD (gp2))", Storage amount (100 GB), Nodes (2), Instance Type (db.m5.2xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr)," Purchase Option (Partial Upfront)""			",,,
-"My Estimate	US East (N. Virginia)		S3 Standard	0	23	276	USD	S3 Standard storage (1000 GB per month)			",,,,,,,,,,,
-"My Estimate	US East (N. Virginia)		Data Transfer	0	0	0	USD				",,,,,,,,,,,
-"My Estimate	US East (N. Virginia)		Application Load Balancer	0	967.25	11607	USD	Number of Application Load Balancers (2)			",,,,,,,,,,,
-"My Estimate	US East (N. Virginia)		Network Address Translation (NAT) Gateway	0	167.85	2014.2	USD	Number of NAT Gateways (1)			",,,,,,,,,,,
-"My Estimate	US East (N. Virginia)		Data Transfer	0	0	0	USD	""DT Inbound: Not selected (0 TB per month)", DT Outbound: Not selected (0 TB per month)," DT Intra-Region: (0 TB per month)""			",,,,,,,,,
-"My Estimate	US East (N. Virginia)		Amazon Route 53	0	475.5	5706	USD	""Hosted Zones (1)"," Basic Checks Within AWS (1000)""			",,,,,,,,,,
-"My Estimate	US East (N. Virginia)		Amazon CloudWatch	0	300	3600	USD	Number of Metrics (includes detailed and custom metrics) (1000)			",,,,,,,,,,,
-"											",,,,,,,,,,,
-"											",,,,,,,,,,,
-"											",,,,,,,,,,,
-"Acknowledgement											",,,,,,,,,,,
-"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.											",,,,,,,,,,,
-"											",,,,,,,,,,,
-"											",,,,,,,,,,,
-EC2 pricing strategy changed from on-demand to 1-year prepaid reserved instances for both web and application servers.   ,,,,,,,,,,,
-RDS ricing strategy changed from on-demand to 1-year prepaid reserved instances ,,,,,,,,,,,
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+9890,6437.900000000001,87144.80,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2 ,2820,1478,20556.00,USD,"Tenancy (Dedicated Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 6), Enable monitoring (disabled), Advance EC2 instance (t3.large), Pricing strategy (Standard Reserved Instances 1 Year  All upfront), Storage amount (30 GB), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,3342,1478,21078.00,USD,"Tenancy (Dedicated Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 6), Enable monitoring (disabled), Advance EC2 instance (m4.large), Pricing strategy (Standard Reserved Instances 1 Year  All upfront), Storage amount (30 GB), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,3728,941.9,15030.80,USD,"Storage volume (General Purpose SSD (gp2)), Storage amount (2000 GB), Nodes (2), Instance Type (db.m5.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (Reserved), Lease Offering Term (1yr), Purchase Option (All Upfront)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,23,276.00,USD,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,125.5,1506.00,USD,"Basic Checks Within AWS (300), Hosted Zones (1)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,0,0.00,USD,Working days per month (22)
+My Estimate,US East (N. Virginia),,Network Address Translation (NAT) Gateway,0,482.85,5794.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,7,84.00,USD,"Number of Metrics (includes detailed and custom metrics) (10), GetMetricData: Number of metrics requested (100000), GetMetricWidgetImage: Number of metrics requested (100000), Number of other API requests (100000)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,1901.6499999999999,22819.80,USD,Number of Application Load Balancers (2)
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."

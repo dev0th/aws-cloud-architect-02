@@ -9,7 +9,7 @@ resource "aws_instance" "udacity_t2" {
   instance_type = "t2.small"
   subnet_id = "subnet-0e1307f804ed743b6"
   tags = {
-    name = "Udacity T2"
+    Name = "Udacity T2"
   }
 }
 
@@ -19,6 +19,6 @@ resource "aws_instance" "udacity_m4" {
   instance_type = "m4.large"
   subnet_id = "subnet-0e1307f804ed743b6"
   tags = {
-    name = "Udacity M2"
+    Name = "Udacity M4"
   }
 }
